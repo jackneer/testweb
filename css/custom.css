@@ -1,0 +1,55 @@
+
+body {
+    background-color: white;
+    /* font-family: "Anaheim", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #737f8a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+  .navigation {
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 99;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .navigation .navigation-menu li a {
+    font-size: 20px;
+    color: #737f8a;
+  }
+
+  .bg-one {
+    background-color: white;
+}
+
+.hero-area:before {
+  content: '';
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.social-icon ul li a {
+  background-color: white;
+  border: 1px solid transparent;
+  display: block;
+  height: 70px;
+  width: 70px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  transition: all 400ms ease-out 0s;
+}
+
+/* .btn {
+  background-color: transparent;
+  color: grey;
+  padding: 10px 30px;
+  border-radius: 0;
+  transition: all .3s ease-in 0s;
+} */
